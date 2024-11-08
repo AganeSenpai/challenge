@@ -42,21 +42,20 @@ Certifique-se de ter o **.NET 8** e o **SQL Server** instalados.
 
 No diretório do projeto, execute o comando:
 
-```bash
+
 dotnet restore
 ### 2. Configuração do Banco de Dados
 Configure o banco de dados no arquivo appsettings.json para se conectar ao seu servidor de banco de dados SQL Server.
 
 Para aplicar as migrações e atualizar o banco de dados, use o comando:
 
-bash
-Copiar código
+
 dotnet ef database update
 ### 3. Rodar o Projeto
 Após configurar o banco e restaurar as dependências, execute o comando:
 
-bash
-Copiar código
+
+
 dotnet run
 ### 4. Acessar a API
 A API estará disponível na URL:
